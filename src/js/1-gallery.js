@@ -8,7 +8,7 @@ const galleryRef = document.querySelector('.gallery');
 const createMarkup = images.map(img => {
   return `<li class="gallery-item">
   <a class="gallery-link" href="${img.original}">
-    <img class="gallery-image" src="${img.preview}" alt="${img.description}" width="340px"/>
+    <img class="gallery-image" src="${img.preview}" alt="${img.description}" width="360px" height="200px"/>
   </a>
 </li>`;
 }).join('');
